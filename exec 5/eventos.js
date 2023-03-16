@@ -26,15 +26,13 @@ console.log(area)
 var titulo = document.getElementsByTagName('h1')
 console.log(titulo)
 
-function centralizar(){
-    area.style.alignItems = 'center'
-}
-
 function clicar(){
     area.innerHTML = 'Você clicou!'
     area.style.background = 'green'
     area.style.width = '200px'
     area.style.height = '200px'
+    area.style.textAlign = 'center'
+    area.style.lineHeight = '200px'
 }
 
 function entrar(){
@@ -44,4 +42,5 @@ function entrar(){
 function sair(){
     area.innerHTML = 'Fora'
     area.style.background = 'none'
+    area.style.display = ''
 }
