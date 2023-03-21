@@ -1,4 +1,4 @@
-var registro = document.getElementById('saida')
+var registro = document.getElementById('registro')
 
 function acao1(){
     registro.innerHTML += '<p>Você clicou no primeiro botão.</p>'
@@ -17,5 +17,6 @@ function acao4(){
 }
 
 function limpar(){
+
     registro.innerHTML = ""
 }
