@@ -3,7 +3,7 @@ for (var x = 2; x <= 2; x++) {
     for (var y = 1; y <= 2; y++) {
         console.log(` ${x}.${y}`)
     }
-    for (var y = 3; y <= 5; y++) {
+    for (var y = 3; ; y++) {
         console.log(` ${x}.${y}`)
     }
 }
