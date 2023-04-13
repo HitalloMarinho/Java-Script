@@ -22,6 +22,7 @@ body{
 }
 
 #final{
+    align-items: center;
     color: white;
     font-size: 20px;
     padding-left: 43%;
