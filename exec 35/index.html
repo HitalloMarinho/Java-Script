@@ -11,17 +11,30 @@
     <h1 id="h1">Verificador de Idade</h1>
 
     <main id="corpo">
-
         Ano de Nascimento: <input id="anoNascimento" type="number" id="number1">
+
+        <p>
+            Sexo:
+            <input type="radio" name="radsex" id="masculino" checked>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="radsex" id="feminino"> 
+            <label for="feminino">Feminino</label>
+        </p>
         
         <br>
 
         <input id="botão" onclick="verificar()" type="button" value="Verificar">
 
-        <p id="resultado"></p>
+        <div id="resultado">
+            <p>
+                Preencha os dados acima para ver o resultado.
+            </p>
+        </div>
     </main>
 
-    <p id="final">© Senac - Programador Web</p>
+    <footer>
+        <p id="final">© Senac - Programador Web</p>
+    </footer>
 
     <script src="script.js"></script>    
 </body>
