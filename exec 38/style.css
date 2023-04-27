@@ -42,11 +42,12 @@ body {
 
 #caixa1 {
     border: black 2px solid;
-    height: 50px;
+    height: auto;
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 40px;
     margin-top: 25px;
+    padding-left: 4px;
 }
 
 #caixa2 {
