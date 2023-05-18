@@ -7,7 +7,7 @@ function gerar() {
     console.log(`O valor de max é ${min} e o seu tipo é ${typeof (min)}`) */
 
     var randomInt = Math.floor(Math.random() * (max - min + 1) + min);
-    resultado.innerHTML = `<p>${randomInt}</p>`;
+    resultado.innerHTML += `${randomInt}`;
 }
 
 function limpar() {
