@@ -3,7 +3,7 @@ function verificarNumero() {
     var numero = parseInt(document.getElementById("numero").value);
     
     // Define o número desejado
-    var numeroDesejado = 60;
+    var numeroDesejado = 80;
     
     // Compara o número inserido com o número desejado
     if (numero <= numeroDesejado) {
